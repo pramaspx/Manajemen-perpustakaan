@@ -150,14 +150,14 @@ body {
             <div class="col-md-3">
                 <div class="quick-menu">
                     <h5>🔄 Pinjam</h5>
-                    <a href="#" class="btn btn-warning btn-sm mt-2">Proses</a>
+                    <a href="peminjaman/peminjaman.php" class="btn btn-warning btn-sm mt-2">Proses</a>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="quick-menu">
                     <h5>🔁 Kembali</h5>
-                    <a href="#" class="btn btn-danger btn-sm mt-2">Proses</a>
+                    <a href="pengembalian/pengembalian.php" class="btn btn-danger btn-sm mt-2">Proses</a>
                 </div>
             </div>
 
