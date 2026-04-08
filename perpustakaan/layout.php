@@ -59,7 +59,7 @@ body {
     <a href="/perpustakaan/buku/buku.php">Data Buku</a>
     <a href="/perpustakaan/anggota/anggota.php">Data Anggota</a>
     <a href="/perpustakaan/peminjaman/peminjaman.php">Peminjaman</a>
-    <a href="/perpustakaan/pengembalian/pengembalian.php">Pengembalian & Denda</a>
+    <a href="/perpustakaan/pengembalian/pengembalian.php">Pengembalian</a>
     <a href="/perpustakaan/laporan/laporan.php">Laporan</a>
 </div>
 
