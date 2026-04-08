@@ -11,7 +11,7 @@
         </div>
 
         <div class="mb-3">
-            <label>Pengarang</label>
+            <label>Penulis</label>
             <input type="text" name="penulis" class="form-control" required>
         </div>
 
@@ -45,7 +45,7 @@ if(isset($_POST['simpan'])){
 
     mysqli_query($conn, "
     INSERT INTO buku (judul, penulis, penerbit, tahun, stok)
-    VALUES ('$judul','$pengarang','$penerbit','$tahun','$stok')
+    VALUES ('$judul','$penulis','$penerbit','$tahun','$stok')
     ");
 
     echo "<script>
