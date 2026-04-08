@@ -18,7 +18,7 @@ $data = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM buku WHERE id_buku
     </div>
 
     <div class="mb-3">
-        <label>Pengarang</label>
+        <label>Penulis</label>
         <input type="text" name="penulis" class="form-control" 
         value="<?= $data['penulis'] ?>" required>
     </div>
@@ -50,7 +50,7 @@ $data = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM buku WHERE id_buku
 <?php
 if(isset($_POST['update'])){
     $judul = $_POST['judul'];
-    $pengarang = $_POST['penulis'];
+    $penulis = $_POST['penulis'];
     $penerbit = $_POST['penerbit'];
     $tahun = $_POST['tahun'];
     $stok = $_POST['stok'];
